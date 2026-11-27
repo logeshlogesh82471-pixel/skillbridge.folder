@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SkillBridge Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="dashboard">
+
+        <aside class="sidebar">
+
+            <h1>Skill<span>Bridge</span></h1>
+
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#explore">Explore Skills</a>
+            <a href="#addskill">Add Skills</a>
+            <a href="#profile">My Profile</a>
+
+            <button onclick="window.location.href='index.html'">
+                Logout
+            </button>
+
+        </aside>
+
+        <main class="main-content">
+
+            <h2>Welcome to SkillBridge!</h2>
+
+            <p>Connect. Learn. Grow.</p>
+
+            <div class="search-box">
+                <input type="text"
+                       placeholder="Search for skills...">
+            </div>
+
+            <div class="stats">
+
+                <div class="card">
+                    <h3>12</h3>
+                    <p>Available Skills</p>
+                </div>
+
+                <div class="card">
+                    <h3>5</h3>
+                    <p>Learning Requests</p>
+                </div>
+
+                <div class="card">
+                    <h3>8</h3>
+                    <p>My Skills</p>
+                </div>
+
+            </div>
+
+            <h2 id="explore">Popular Skills</h2>
+
+            <div class="skills">
+
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <button>Learn Skill</button>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Graphic Design</h3>
+                    <p>Canva, Photoshop</p>
+                    <button>Learn Skill</button>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Video Editing</h3>
+                    <p>Premiere Pro, CapCut</p>
+                    <button>Learn Skill</button>
+                </div>
+
+                <div class="skill-card">
+                    <h3>Public Speaking</h3>
+                    <p>Communication Skills</p>
+                    <button>Learn Skill</button>
+                </div>
+
+            </div>
+
+            <div id="addskill" class="add-section">
+                <h2>Share Your Skills</h2>
+                <p>Teach others what you know!</p>
+                <button>Add Your Skill</button>
+            </div>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
